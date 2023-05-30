@@ -5,7 +5,7 @@
 }
 #header{
     color:rgb(2, 49, 0);
-    background-image:url(/Home.png);
+    background-image:url(../Home.png);
     background-position: center;
     background-size:cover;
     height:100vh;
@@ -34,7 +34,7 @@ nav ul a li{
 /* Programing area styling */
 #Office{
     height: 100vh;
-    background-image:url(/Office.png);
+    background-image:url(../Office.png);
     background-position: center;
     background-size:cover;
 }
@@ -65,7 +65,7 @@ nav ul a li{
 /* Programing area styling */
 #ProgramingCodding{
     height: 100vh;
-    background-image:url(/Programing.png);
+    background-image:url(../Programing.png);
     background-position: center;
     background-size:cover;
 }
@@ -96,7 +96,7 @@ nav ul a li{
 /* Programing area styling */
 #Gaming{
     height: 100vh;
-    background-image:url(/Gaming.png);
+    background-image:url(../Gaming.png);
     background-position: center;
     background-size:cover;
 }
