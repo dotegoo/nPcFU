@@ -1,0 +1,127 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+#header{
+    color:rgb(2, 49, 0);
+    background-image:url(/Home.png);
+    background-position: center;
+    background-size:cover;
+    height:100vh;
+    background-repeat: no-repeat;
+}
+#header p{
+    font-size: 20px;
+    width: 50vw;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:5vh
+}
+
+nav ul li{
+    
+    display:inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+nav ul a li{
+    float:right;
+    text-decoration: none;
+    color:#3E2B96;
+    font-size: 30px;
+}
+/* Programing area styling */
+#Office{
+    height: 100vh;
+    background-image:url(/Office.png);
+    background-position: center;
+    background-size:cover;
+}
+#Office p{
+    text-align: left;
+    padding-left: 1vw;
+    padding-top:20vh;
+    font-size: 25px;
+    color:#3E2B96
+}
+#Office ul a li{
+    text-decoration: dotted;
+    font-size:20px;
+    padding-top:3vh;
+    padding-left:4vw;
+    color:#3E2B96
+}
+#Office ul a{
+    text-decoration: dotted;
+    font-size:20px;
+    padding-left:4vw;
+    color:#3E2B96;
+    font-weight: 600;
+    display:inline-block;
+    flex-wrap: wrap;
+    list-style: none;
+}
+/* Programing area styling */
+#ProgramingCodding{
+    height: 100vh;
+    background-image:url(/Programing.png);
+    background-position: center;
+    background-size:cover;
+}
+#ProgramingCodding p{
+    text-align: left;
+    padding-left: 1vw;
+    padding-top:20vh;
+    font-size: 25px;
+    color:#3E2B96
+}
+#ProgramingCodding ul a li{
+    text-decoration: dotted;
+    font-size:20px;
+    padding-top:3vh;
+    padding-left:4vw;
+    color:#3E2B96
+}
+#ProgramingCodding ul a{
+    text-decoration: dotted;
+    font-size:20px;
+    padding-left:4vw;
+    color:#3E2B96;
+    font-weight: 600;
+    display:inline-block;
+    flex-wrap: wrap;
+    list-style: none;
+}
+/* Programing area styling */
+#Gaming{
+    height: 100vh;
+    background-image:url(/Gaming.png);
+    background-position: center;
+    background-size:cover;
+}
+#Gaming p{
+    text-align: left;
+    padding-left: 1vw;
+    padding-top:20vh;
+    font-size: 25px;
+    color:#3E2B96
+}
+#Gaming ul a li{
+    text-decoration: dotted;
+    font-size:20px;
+    padding-top:3vh;
+    padding-left:4vw;
+    color:#3E2B96
+}
+#Gaming ul a{
+    text-decoration: dotted;
+    font-size:20px;
+    padding-left:4vw;
+    color:#3E2B96;
+    font-weight: 600;
+    display:inline-block;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
