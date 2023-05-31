@@ -131,3 +131,16 @@ nav ul a li{
     flex-wrap: wrap;
     list-style: none;
 }
+
+@media screen {
+    #header{
+        color:rgb(2, 49, 0);
+        background-color:bisque;
+        background-image:url(../nPcFU/images/Homemobile.png);
+        background-position: center;
+        background-size:cover;
+        background-attachment: fixed;
+        height:100vh;
+        background-repeat: no-repeat;
+    }
+}
