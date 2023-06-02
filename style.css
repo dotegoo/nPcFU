@@ -132,15 +132,77 @@ nav ul a li{
     list-style: none;
 }
 
-@media screen {
+@media (max-width: 768px) {
+    /* Adjustments for smaller screen sizes */
+    
+    /* Header */
     #header{
         color:rgb(2, 49, 0);
         background-color:bisque;
         background-image:url(../nPcFU/images/Homemobile.png);
         background-position: center;
         background-size:cover;
-        background-attachment: fixed;
         height:100vh;
         background-repeat: no-repeat;
     }
-}
+    #header p {
+      font-size: 16px;
+      width: 80vw;
+    }
+  
+    /* Navigation */
+    nav ul li {
+      margin: 10px 10px;
+    }
+    nav ul a li {
+      font-size: 20px;
+    }
+  
+    /* Office section */
+    #Office p {
+      font-size: 18px;
+      padding-left: 1.5vw;
+      padding-top: 15vh;
+    }
+    #Office ul a li {
+      font-size: 16px;
+      padding-top: 2vh;
+      padding-left: 3vw;
+    }
+    #Office ul a {
+      font-size: 16px;
+      padding-left: 3vw;
+    }
+  
+    /* Programing and Codding section */
+    #ProgramingCodding p {
+      font-size: 18px;
+      padding-left: 1.5vw;
+      padding-top: 15vh;
+    }
+    #ProgramingCodding ul a li {
+      font-size: 16px;
+      padding-top: 2vh;
+      padding-left: 3vw;
+    }
+    #ProgramingCodding ul a {
+      font-size: 16px;
+      padding-left: 3vw;
+    }
+  
+    /* Gaming section */
+    #Gaming p {
+      font-size: 18px;
+      padding-left: 1.5vw;
+      padding-top: 15vh;
+    }
+    #Gaming ul a li {
+      font-size: 16px;
+      padding-top: 2vh;
+      padding-left: 3vw;
+    }
+    #Gaming ul a {
+      font-size: 16px;
+      padding-left: 3vw;
+    }
+  }
